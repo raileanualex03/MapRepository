@@ -4,7 +4,7 @@ import model.domain.Vehicle;
 import exceptions.MemoryError;
 import exceptions.NotFoundException;
 
-public class InMemoryRepository extends Repository<Vehicle>{
+public class InMemoryRepository implements Repository<Vehicle>{
     FixedSizeArray vehicles;
 
     public InMemoryRepository(){

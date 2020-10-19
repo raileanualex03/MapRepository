@@ -15,9 +15,9 @@ public class UserInterface {
     }
     public void showCommands(){
         System.out.println("**  Commands Available **");
-        System.out.println("1.Add a car ( id, brand, year )");
-        System.out.println("2.Add a truck ( id, brand, year )");
-        System.out.println("3.Add a motorcycle ( id, brand, year )");
+        System.out.println("1.Add a car ( id, brand, year, repairingCost )");
+        System.out.println("2.Add a truck ( id, brand, year, repairingCost )");
+        System.out.println("3.Add a motorcycle ( id, brand, year, repairingCost )");
         System.out.println("4.Remove a vehicle ( id )");
         System.out.println("5.Show all the vehicles");
         System.out.println("6.Show all the vehicles with cost less than (cost)");
@@ -47,8 +47,14 @@ public class UserInterface {
         while(true){
             showCommands();
             Scanner scanner = new Scanner(System.in);
-            int command = scanner.nextInt();
-
+            System.out.println("Enter command:");
+            int command=0;
+            try {
+                command = scanner.nextInt();
+            }
+            catch(Exception e){
+                System.out.println(e.getMessage());
+            }
             try {
                 // code block
                 switch (command) {

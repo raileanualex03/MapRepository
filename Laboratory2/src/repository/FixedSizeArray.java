@@ -21,7 +21,7 @@ public class FixedSizeArray {
     public void remove(Vehicle vehicle) throws NotFoundException{
         for(int index=0;index<size;index++){
             if(vehicles[index].getID() == vehicle.getID()){
-                vehicles[index] = vehicles[size];
+                vehicles[index] = vehicles[size-1];
                 vehicles[size] = null;
                 this.size -=1;
                 return;

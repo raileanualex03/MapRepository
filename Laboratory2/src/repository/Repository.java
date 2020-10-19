@@ -4,11 +4,11 @@ import exceptions.MemoryError;
 import exceptions.NotFoundException;
 
 
-abstract class Repository<TElem> {
+interface Repository<TElem> {
 
-    abstract boolean add(TElem elem) throws NotFoundException, MemoryError;
-    abstract boolean remove(TElem elem) throws NotFoundException;
-    abstract boolean update(TElem elem) throws NotFoundException, MemoryError;
-    abstract FixedSizeArray get();
+    public boolean add(TElem elem) throws NotFoundException, MemoryError;
+    public boolean remove(TElem elem) throws NotFoundException;
+    public boolean update(TElem elem) throws NotFoundException, MemoryError;
+    public FixedSizeArray get();
 
 }
