@@ -23,4 +23,9 @@ public class Repository implements IRepository{
     public ProgramState getCurrentProgram() {
         return programs.get(currentProgram);
     }
+
+    public void addProgram(ProgramState program){
+        programs.add(program);
+        currentProgram += 1;
+    }
 }

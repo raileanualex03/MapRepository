@@ -11,6 +11,7 @@ public class ProgramState {
     MyDictionary<String, Value> symTable;
     MyList<Value> out;
     IStatement originalProgram;
+
     public ProgramState(MyStack<IStatement> stack, MyDictionary<String, Value> table
             , MyList<Value> output, IStatement op){
         exeStack = stack;

@@ -11,7 +11,7 @@ public class LogicExpression implements Expression{
     int operation;
 
     public LogicExpression(int op, Expression e1, Expression e2){
-        this.operation = op;
+        this.operation = op; // 1 is && and 2 is ||
         this.firstExpression = e1;
         this.secondExpression = e2;
     }

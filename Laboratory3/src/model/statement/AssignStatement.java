@@ -17,10 +17,6 @@ public class AssignStatement implements IStatement {
         this.exp = exp;
     }
 
-    public String toString(){
-        return id + ":" + exp.toString();
-    }
-
     @Override
     public ProgramState execute(ProgramState ps) throws MyException {
         MyStack<IStatement> stack = ps.getExeStack();
@@ -42,4 +38,10 @@ public class AssignStatement implements IStatement {
             throw new MyException("This variable wasn't declared previously");
         return ps;
     }
+
+    public String toString(){
+        return id + "=" + exp.toString();
+    }
+
+
 }

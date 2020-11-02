@@ -18,7 +18,7 @@ public class Controller {
         if (stack.isEmpty())
             throw new MyException("Program stack is empty");
         IStatement statement = stack.pop();
-
+        System.out.println(this.repository.getCurrentProgram());
         return statement.execute(state);
 
     }

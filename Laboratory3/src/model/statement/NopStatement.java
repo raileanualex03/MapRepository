@@ -9,4 +9,8 @@ public class NopStatement implements IStatement{
     public ProgramState execute(ProgramState ps) throws MyException {
         return ps;
     }
+
+    public String toString(){
+        return "Nop statement";
+    }
 }
