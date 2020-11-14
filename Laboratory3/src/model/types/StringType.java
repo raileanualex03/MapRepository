@@ -1,21 +1,21 @@
 package model.types;
 
-import model.var.BoolValue;
+import model.var.StringValue;
 import model.var.Value;
 
-public class BoolType implements Type{
+public class StringType implements Type{
 
     @Override
     public boolean equals(Type other) {
-        return other instanceof BoolType;
+        return (other instanceof StringType);
     }
 
     @Override
     public Value defaultValue() {
-        return new BoolValue(false);
+        return new StringValue("");
     }
 
     public String toString(){
-        return "Boolean";
+        return "String";
     }
 }

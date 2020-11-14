@@ -1,8 +1,12 @@
 package repository;
 
+import exceptions.MyException;
 import model.ProgramState;
+
+import java.io.IOException;
 
 public interface IRepository {
 
-    public ProgramState getCurrentProgram();
+    ProgramState getCurrentProgram();
+    void logProgramStateExecute() throws MyException, IOException;
 }

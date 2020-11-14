@@ -40,4 +40,12 @@ public class LogicExpression implements Expression{
         };
 
     }
+    public String toString(){
+        return switch (operation) {
+            case 1 -> firstExpression + "&&" + secondExpression;
+            case 2 -> firstExpression + "||" + secondExpression;
+            default -> "Bad logical expression";
+        };
+    }
+
 }

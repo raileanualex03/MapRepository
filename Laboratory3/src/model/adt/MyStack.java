@@ -1,13 +1,14 @@
 package model.adt;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Stack;
 
 public class MyStack<T> implements IStack<T> {
-    Stack<T> stack;
+    ArrayDeque<T> stack;
 
     public MyStack(){
-        stack = new Stack<>();
+        stack = new ArrayDeque<>();
     }
 
 

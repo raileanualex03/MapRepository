@@ -4,19 +4,23 @@ import model.adt.*;
 import model.statement.IStatement;
 import model.var.Value;
 
+import java.io.BufferedReader;
 import java.util.List;
 
 public class ProgramState {
     MyStack<IStatement> exeStack;
     MyDictionary<String, Value> symTable;
     MyList<Value> out;
+    MyDictionary<String, BufferedReader> fileTable;
     IStatement originalProgram;
 
+
     public ProgramState(MyStack<IStatement> stack, MyDictionary<String, Value> table
-            , MyList<Value> output, IStatement op){
+            , MyList<Value> output, MyDictionary<String, BufferedReader> fileTable, IStatement op){
         exeStack = stack;
         symTable = table;
         out = output;
+        this.fileTable = fileTable;
         originalProgram = op;
         if (originalProgram != null)
             stack.push(originalProgram);
@@ -36,6 +40,10 @@ public class ProgramState {
 
     public MyList<Value> getOut() {
         return out;
+    }
+
+    public MyDictionary<String, BufferedReader> getFileTable(){
+        return fileTable;
     }
 
     public void setExeStack(MyStack<IStatement> exeStack) {

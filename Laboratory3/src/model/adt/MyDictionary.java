@@ -15,6 +15,10 @@ public class MyDictionary<T1, T2> implements IDictionary<T1,T2>{
     }
 
     @Override
+    public void remove(T1 v1){
+        dictionary.remove(v1);
+    }
+    @Override
     public void update(T1 v1, T2 v2) {
         T2 oldValue = this.lookup(v1);
         dictionary.replace(v1, oldValue, v2);

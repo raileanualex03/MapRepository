@@ -7,4 +7,5 @@ public interface IDictionary<T1, T2> {
     T2 lookup(T1 id);
     boolean isDefined(String id);
     String toString();
+    void remove(T1 v1);
 }

@@ -40,7 +40,7 @@ public class AssignStatement implements IStatement {
     }
 
     public String toString(){
-        return id + "=" + exp.toString();
+        return id + " =" + exp.toString();
     }
 
 

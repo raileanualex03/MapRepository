@@ -77,15 +77,15 @@ public class View {
         Integer input = scanner.nextInt();
         switch (input){
             case 1:
-                Repository repository1 = new Repository(View.example1());
+                Repository repository1 = new Repository(View.example1(), "");
                 Controller controller1 = new Controller(repository1);
                 runSteps(controller1);
             case 2:
-                Repository repository2 = new Repository(View.example2());
+                Repository repository2 = new Repository(View.example2(), "");
                 Controller controller2 = new Controller(repository2);
                 runSteps(controller2);
             case 3:
-                Repository repository3 = new Repository(View.example3());
+                Repository repository3 = new Repository(View.example3(), "");
                 Controller controller3 = new Controller(repository3);
                 runSteps(controller3);
 
@@ -101,7 +101,7 @@ public class View {
         System.out.println("2.One step");
         System.out.println("Enter your choice : ");
         Scanner scanner = new Scanner(System.in);
-        Integer choice = scanner.nextInt();
+        int choice = scanner.nextInt();
         switch (choice){
             case 1:
                 try{

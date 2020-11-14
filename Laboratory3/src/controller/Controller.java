@@ -6,6 +6,8 @@ import model.adt.MyStack;
 import model.statement.IStatement;
 import repository.IRepository;
 
+import java.io.IOException;
+
 public class Controller {
     IRepository repository;
 
@@ -23,13 +25,14 @@ public class Controller {
 
     }
 
-    public void allStep() throws MyException {
+    public void allStep() throws MyException, IOException {
         ProgramState program = repository.getCurrentProgram();
         System.out.println(this.repository.getCurrentProgram());
         while (!program.getExeStack().isEmpty()){
             oneStep(program);
             System.out.println("______________");
             System.out.println(this.repository.getCurrentProgram());
+            repository.logProgramStateExecute();
         }
     }
 
