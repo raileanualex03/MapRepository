@@ -1,0 +1,50 @@
+Program state 
+exeStack=[Boolean a, (if IntValue: 3==IntValue: 3 then a =IntValue: 10 else a =IntValue: 20,print a)]
+symTable={}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(if IntValue: 3==IntValue: 3 then a =IntValue: 10 else a =IntValue: 20,print a)]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[if IntValue: 3==IntValue: 3 then a =IntValue: 10 else a =IntValue: 20, print a]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[a =IntValue: 10, print a]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[Integer a, (if IntValue: 3==IntValue: 3 then a =IntValue: 10 else a =IntValue: 20,print a)]
+symTable={}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(if IntValue: 3==IntValue: 3 then a =IntValue: 10 else a =IntValue: 20,print a)]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[if IntValue: 3==IntValue: 3 then a =IntValue: 10 else a =IntValue: 20, print a]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[a =IntValue: 10, print a]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[print a]
+symTable={a=IntValue: 10}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[]
+symTable={a=IntValue: 10}
+out=[IntValue: 10]
+fileTable = {}

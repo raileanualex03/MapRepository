@@ -13,6 +13,7 @@ import model.exp.*;
 import model.*;
 import repository.Repository;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 import static java.lang.System.exit;
@@ -107,14 +108,14 @@ public class View {
                 try{
                     controller.allStep();
                     exit(0);
-                } catch (MyException e) {
+                } catch (MyException | IOException e) {
                     System.out.println(e.toString());
                 }
             case 2:
                 try{
                     controller.oneStep(controller.getMainProgram());
                 }
-                catch (MyException e){
+                catch (MyException | IOException e){
                     System.out.println(e.toString());
                 }
         }

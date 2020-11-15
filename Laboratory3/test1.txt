@@ -1,0 +1,25 @@
+Program state 
+exeStack=[Integer v, (v =IntValue: 2,print v)]
+symTable={}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(v =IntValue: 2,print v)]
+symTable={v=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[v =IntValue: 2, print v]
+symTable={v=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[print v]
+symTable={v=IntValue: 2}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[]
+symTable={v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}

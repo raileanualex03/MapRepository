@@ -28,11 +28,11 @@ public class ReadFileStatement implements IStatement{
         MyDictionary<String, Value> symTable = p.getSymTable();
         MyDictionary<String, BufferedReader> table = p.getFileTable();
 
-        if (!table.isDefined(var_name))
-            throw new MyException("Variable not defined");
-        Value result = expression.eval(symTable);
-        if (!result.getType().equals(new IntType()))
+        if (table.isDefined(var_name))
+            throw new MyException("Variable not defined: " + var_name);
+        if (!(symTable.lookup(var_name)).getType().equals(new IntType()))
             throw new MyException("Wrong type");
+        Value result = expression.eval(symTable);
         StringValue resultString = (StringValue)result;
         BufferedReader reader = table.lookup(resultString.getValue());
         String line = reader.readLine();
@@ -45,4 +45,11 @@ public class ReadFileStatement implements IStatement{
 
         return p;
     }
+
+    @Override
+    public String toString()
+    {
+        return (this.var_name + " = readLine(" + this.expression.toString() + ")");
+    }
+
 }

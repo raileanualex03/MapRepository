@@ -65,9 +65,10 @@ public class ProgramState {
     @Override
     public String toString(){
         return "Program state " + '\n' +
-                "exeStack=" + exeStack + '\n' +
-                "symTable=" + symTable + '\n' +
-                "out=" + out;
+                "exeStack=" + exeStack.toString() + '\n' +
+                "symTable=" + symTable.toString() + '\n' +
+                "out=" + out.toString() + '\n' +
+                "fileTable = " + fileTable.toString();
     }
 }
 

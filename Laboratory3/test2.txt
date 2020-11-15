@@ -1,0 +1,45 @@
+Program state 
+exeStack=[Integer a, (Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b)))]
+symTable={}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b)))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0, b=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[a =IntValue: 2+IntValue: 3*IntValue: 5, (b =a+IntValue: 1,print b)]
+symTable={a=IntValue: 0, b=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(b =a+IntValue: 1,print b)]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[print b]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 18]
+fileTable = {}

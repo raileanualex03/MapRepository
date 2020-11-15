@@ -15,7 +15,7 @@ public class Controller {
         repository = repo;
     }
 
-    public ProgramState oneStep(ProgramState state) throws MyException {
+    public ProgramState oneStep(ProgramState state) throws MyException, IOException {
         MyStack<IStatement> stack = state.getExeStack();
         if (stack.isEmpty())
             throw new MyException("Program stack is empty");

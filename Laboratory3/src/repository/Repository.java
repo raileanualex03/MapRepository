@@ -7,10 +7,7 @@ import model.adt.MyList;
 import model.adt.MyStack;
 import model.statement.IStatement;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 
 public class Repository implements IRepository{
@@ -21,7 +18,7 @@ public class Repository implements IRepository{
     public Repository(IStatement program, String filepath){
         programs = new ArrayList<>();
         logFilePath = filepath;
-        ProgramState mainProgram = new ProgramState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), program);
+        ProgramState mainProgram = new ProgramState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), new MyDictionary<>(), program);
         programs.add(mainProgram);
         currentProgram = 0;
     }
@@ -33,9 +30,9 @@ public class Repository implements IRepository{
 
     @Override
     public void logProgramStateExecute() throws MyException, IOException {
-        String logFilePath = "";
-        PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
-        logFile.print(programs.get(currentProgram).toString());
+        PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(new File(logFilePath), true)));
+        logFile.println(programs.get(currentProgram).toString());
+        logFile.close();
     }
 
     public void addProgram(ProgramState program){

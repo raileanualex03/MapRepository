@@ -49,4 +49,9 @@ public class OpenRFileStatement implements IStatement {
         return ps;
     }
 
+    @Override
+    public String toString()
+    {
+        return (" openFile(" + this.expression.toString() + ")");
+    }
 }
