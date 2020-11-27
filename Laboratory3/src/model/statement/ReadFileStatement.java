@@ -10,7 +10,6 @@ import model.var.StringValue;
 import model.var.Value;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ReadFileStatement implements IStatement{
@@ -32,7 +31,7 @@ public class ReadFileStatement implements IStatement{
             throw new MyException("Variable not defined: " + var_name);
         if (!(symTable.lookup(var_name)).getType().equals(new IntType()))
             throw new MyException("Wrong type");
-        Value result = expression.eval(symTable);
+        Value result = expression.eval(symTable, p.getHeapTable());
         StringValue resultString = (StringValue)result;
         BufferedReader reader = table.lookup(resultString.getValue());
         String line = reader.readLine();
@@ -47,8 +46,7 @@ public class ReadFileStatement implements IStatement{
     }
 
     @Override
-    public String toString()
-    {
+    public String toString(){
         return (this.var_name + " = readLine(" + this.expression.toString() + ")");
     }
 

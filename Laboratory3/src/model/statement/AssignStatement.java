@@ -25,7 +25,7 @@ public class AssignStatement implements IStatement {
         if (table.isDefined(id)) {
             Value value = null;
             try {
-                value = exp.eval(table);
+                value = exp.eval(table, ps.getHeapTable());
             } catch (MyException e) {
                 e.printStackTrace();
             }

@@ -19,7 +19,7 @@ public class PrintStatement implements IStatement{
         MyList<Value> output = p.getOut();
         MyDictionary<String, Value> table = p.getSymTable();
         try {
-            output.add(expression.eval(table));
+            output.add(expression.eval(table, p.getHeapTable()));
         } catch (MyException e) {
             e.printStackTrace();
         }

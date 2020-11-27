@@ -2,6 +2,7 @@ package model.exp;
 
 import exceptions.MyException;
 import model.adt.MyDictionary;
+import model.adt.MyHeap;
 import model.types.IntType;
 import model.var.BoolValue;
 import model.var.IntValue;
@@ -20,9 +21,9 @@ public class RelationalExpression implements Expression{
 
 
     @Override
-    public Value eval(MyDictionary<String, Value> table) throws MyException {
-        Value firstResult = firstExpression.eval(table);
-        Value secondResult = secondExpression.eval(table);
+    public Value eval(MyDictionary<String, Value> table, MyHeap heap) throws MyException {
+        Value firstResult = firstExpression.eval(table, heap);
+        Value secondResult = secondExpression.eval(table, heap);
         if(!firstResult.getType().equals(new IntType()))
             throw new MyException("Invalid type");
         if(!secondResult.getType().equals(new IntType()))

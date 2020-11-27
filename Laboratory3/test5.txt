@@ -1,0 +1,374 @@
+Program state 
+exeStack=[String varf, (varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+Program state 
+exeStack=[varf =String: testFile.txt, ( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+Program state 
+exeStack=[( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[ openFile(varf), (Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[Integer varc, (varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[print varc, (varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[print varc, Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {}
+Program state 
+exeStack=[String varf, (varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+Program state 
+exeStack=[varf =String: testFile.txt, ( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+Program state 
+exeStack=[( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[ openFile(varf), (Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+Program state 
+exeStack=[(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[Integer varc, (varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[print varc, (varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[(print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[print varc, Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {testFile.txt=java.io.BufferedReader@77a567e1}
+Program state 
+exeStack=[]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {}
+Program state 
+exeStack=[String varf, (varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[varf =String: testFile.txt, ( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[ openFile(varf), (Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[Integer varc, (varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[(print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[print varc, (varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[(print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[print varc, Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {testFile.txt=java.io.BufferedReader@3fa77460}
+heapTable={}
+Program state 
+exeStack=[]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[String varf, (varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(varf =String: testFile.txt,( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[varf =String: testFile.txt, ( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: }
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[( openFile(varf),(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[ openFile(varf), (Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(Integer varc,(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf))))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[Integer varc, (varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,(varc = readLine(varf),(print varc,Close file(varf)))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 0}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[(print varc,(varc = readLine(varf),(print varc,Close file(varf))))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[print varc, (varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[(varc = readLine(varf),(print varc,Close file(varf)))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[varc = readLine(varf), (print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 15}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[(print varc,Close file(varf))]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[print varc, Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[Close file(varf)]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {testFile.txt=java.io.BufferedReader@7e32c033}
+heapTable={}
+Program state 
+exeStack=[]
+symTable={varf=String: testFile.txt, varc=IntValue: 50}
+out=[IntValue: 15, IntValue: 50]
+fileTable = {}
+heapTable={}

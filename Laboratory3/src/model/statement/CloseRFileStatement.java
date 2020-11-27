@@ -8,7 +8,6 @@ import model.types.StringType;
 import model.var.StringValue;
 import model.var.Value;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 
@@ -23,7 +22,7 @@ public class CloseRFileStatement implements IStatement{
     public ProgramState execute(ProgramState p) throws MyException, IOException {
         MyDictionary<String, Value> table = p.getSymTable();
         MyDictionary<String, BufferedReader> fileTable = p.getFileTable();
-        Value value = expression.eval(table);
+        Value value = expression.eval(table, p.getHeapTable());
         if (!value.getType().equals(new StringType()))
             throw new MyException("Wrong type");
         StringValue val = (StringValue)value;
@@ -31,5 +30,9 @@ public class CloseRFileStatement implements IStatement{
         reader.close();
         fileTable.remove(val.getValue());
         return p;
+    }
+
+    public String toString(){
+        return "Close file(" + expression.toString() + ")";
     }
 }

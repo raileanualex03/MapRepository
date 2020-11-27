@@ -13,14 +13,16 @@ public class ProgramState {
     MyList<Value> out;
     MyDictionary<String, BufferedReader> fileTable;
     IStatement originalProgram;
+    MyHeap heapTable;
 
 
     public ProgramState(MyStack<IStatement> stack, MyDictionary<String, Value> table
-            , MyList<Value> output, MyDictionary<String, BufferedReader> fileTable, IStatement op){
+            , MyList<Value> output, MyDictionary<String, BufferedReader> fileTable, MyHeap heap, IStatement op){
         exeStack = stack;
         symTable = table;
         out = output;
         this.fileTable = fileTable;
+        heapTable = heap;
         originalProgram = op;
         if (originalProgram != null)
             stack.push(originalProgram);
@@ -46,6 +48,9 @@ public class ProgramState {
         return fileTable;
     }
 
+    public MyHeap getHeapTable(){
+        return heapTable;
+    }
     public void setExeStack(MyStack<IStatement> exeStack) {
         this.exeStack = exeStack;
     }
@@ -68,7 +73,8 @@ public class ProgramState {
                 "exeStack=" + exeStack.toString() + '\n' +
                 "symTable=" + symTable.toString() + '\n' +
                 "out=" + out.toString() + '\n' +
-                "fileTable = " + fileTable.toString();
+                "fileTable = " + fileTable.toString() + '\n' +
+                "heapTable=" + heapTable.toString();
     }
 }
 

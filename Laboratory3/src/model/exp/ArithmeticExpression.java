@@ -1,6 +1,7 @@
 package model.exp;
 import exceptions.MyException;
 import model.adt.MyDictionary;
+import model.adt.MyHeap;
 import model.types.IntType;
 import model.var.IntValue;
 import model.var.Value;
@@ -17,16 +18,16 @@ public class ArithmeticExpression implements Expression{
 
 
     @Override
-    public Value eval(MyDictionary<String, Value> table) throws MyException {
+    public Value eval(MyDictionary<String, Value> table, MyHeap heap) throws MyException {
         Value firstVal, secondVal = null;
         firstVal = null;
         try {
-            firstVal = firstExpression.eval(table);
+            firstVal = firstExpression.eval(table, heap);
         } catch (MyException e) {
             e.printStackTrace();
         }
         try {
-            secondVal = secondExpression.eval(table);
+            secondVal = secondExpression.eval(table, heap);
         } catch (MyException e) {
             e.printStackTrace();
         }

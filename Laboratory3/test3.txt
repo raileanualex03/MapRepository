@@ -3,48 +3,58 @@ exeStack=[Boolean a, (Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 el
 symTable={}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[(Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v)))]
 symTable={a=BoolValue: false}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
 symTable={a=BoolValue: false}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
 symTable={a=BoolValue: false, v=IntValue: 0}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[a =BoolValue: true, (if a then v =IntValue: 2 else v =IntValue: 3,print v)]
 symTable={a=BoolValue: false, v=IntValue: 0}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[(if a then v =IntValue: 2 else v =IntValue: 3,print v)]
 symTable={a=BoolValue: true, v=IntValue: 0}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
 symTable={a=BoolValue: true, v=IntValue: 0}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[v =IntValue: 2, print v]
 symTable={a=BoolValue: true, v=IntValue: 0}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[print v]
 symTable={a=BoolValue: true, v=IntValue: 2}
 out=[]
 fileTable = {}
+heapTable={}
 Program state 
 exeStack=[]
 symTable={a=BoolValue: true, v=IntValue: 2}
 out=[IntValue: 2]
 fileTable = {}
+heapTable={}

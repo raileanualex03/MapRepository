@@ -1,5 +1,6 @@
 package model.adt;
 
+import java.util.Collection;
 import java.util.HashMap;
 
 public class MyDictionary<T1, T2> implements IDictionary<T1,T2>{
@@ -39,4 +40,7 @@ public class MyDictionary<T1, T2> implements IDictionary<T1,T2>{
     }
 
 
+    public Collection<T2> getContent() {
+        return dictionary.values();
+    }
 }

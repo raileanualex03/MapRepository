@@ -19,6 +19,10 @@ public class MyList<T> implements IList<T> {
         return list.remove(list.size()-1);
     }
 
+
+    public boolean contains(T o){
+        return list.contains(o);
+    }
     public String toString(){
         return list.toString();
     }

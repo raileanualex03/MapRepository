@@ -3,7 +3,6 @@ package model.statement;
 import exceptions.MyException;
 import model.ProgramState;
 import model.adt.MyDictionary;
-import model.adt.MyStack;
 import model.exp.Expression;
 import model.types.StringType;
 import model.var.StringValue;
@@ -22,10 +21,9 @@ public class OpenRFileStatement implements IStatement {
 
     @Override
     public ProgramState execute(ProgramState ps) throws MyException, FileNotFoundException {
-        MyStack<IStatement> stack = ps.getExeStack();
         MyDictionary<String, Value> table = ps.getSymTable();
         MyDictionary<String, BufferedReader> fileTable = ps.getFileTable();
-        Value val = expression.eval(table);
+        Value val = expression.eval(table, ps.getHeapTable());
 
         if (val.getType().equals(new StringType())){
             String path = ((StringValue)val).getValue();

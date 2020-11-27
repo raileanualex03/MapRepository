@@ -6,7 +6,7 @@ import model.var.Value;
 public class BoolType implements Type{
 
     @Override
-    public boolean equals(Type other) {
+    public boolean equals(Object other) {
         return other instanceof BoolType;
     }
 

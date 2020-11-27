@@ -2,6 +2,7 @@ package model.exp;
 
 import exceptions.MyException;
 import model.adt.MyDictionary;
+import model.adt.MyHeap;
 import model.types.BoolType;
 import model.var.BoolValue;
 import model.var.Value;
@@ -17,10 +18,10 @@ public class LogicExpression implements Expression{
     }
 
     @Override
-    public Value eval(MyDictionary<String, Value> table) throws MyException {
+    public Value eval(MyDictionary<String, Value> table, MyHeap heap) throws MyException {
         Value firstValue, secondValue;
-        firstValue = firstExpression.eval(table);
-        secondValue = secondExpression.eval(table);
+        firstValue = firstExpression.eval(table, heap);
+        secondValue = secondExpression.eval(table, heap);
         if (operation != 2 && operation != 1)
             throw new MyException("Invalid operation");
         if (!firstValue.getType().equals(new BoolType()))

@@ -28,7 +28,7 @@ public class IfStatement implements IStatement {
 
         Value value = null;
         try {
-            value = expression.eval(table);
+            value = expression.eval(table, ps.getHeapTable());
         } catch (MyException e) {
             e.printStackTrace();
         }

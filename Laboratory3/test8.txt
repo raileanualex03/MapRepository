@@ -1,0 +1,138 @@
+Program state 
+exeStack=[Ref v, (HeapAllocation(String: v,IntValue: 20),(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(HeapAllocation(String: v,IntValue: 20),(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)))]
+symTable={v=RefValue ( 0,Ref)}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[HeapAllocation(String: v,IntValue: 20), (print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5))]
+symTable={v=RefValue ( 0,Ref)}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5))]
+symTable={v=RefValue ( 1,Ref)}
+out=[]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[print heapReading : v, (heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)]
+symTable={v=RefValue ( 1,Ref)}
+out=[]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[heapWriting(IntValue: 30), print heapReading : v+IntValue: 5]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[Ref v, (HeapAllocation(String: v,IntValue: 20),(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(HeapAllocation(String: v,IntValue: 20),(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)))]
+symTable={v=RefValue ( 0,Ref)}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[HeapAllocation(String: v,IntValue: 20), (print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5))]
+symTable={v=RefValue ( 0,Ref)}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5))]
+symTable={v=RefValue ( 1,Ref)}
+out=[]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[print heapReading : v, (heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)]
+symTable={v=RefValue ( 1,Ref)}
+out=[]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[heapWriting(IntValue: 30), print heapReading : v+IntValue: 5]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[Ref v, (HeapAllocation(String: v,IntValue: 20),(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(HeapAllocation(String: v,IntValue: 20),(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)))]
+symTable={v=RefValue ( 0,Ref)}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[HeapAllocation(String: v,IntValue: 20), (print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5))]
+symTable={v=RefValue ( 0,Ref)}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print heapReading : v,(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5))]
+symTable={v=RefValue ( 1,Ref)}
+out=[]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[print heapReading : v, (heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)]
+symTable={v=RefValue ( 1,Ref)}
+out=[]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[(heapWriting(IntValue: 30),print heapReading : v+IntValue: 5)]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[heapWriting(IntValue: 30), print heapReading : v+IntValue: 5]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 20}
+Program state 
+exeStack=[print heapReading : v+IntValue: 5]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20]
+fileTable = {}
+heapTable={1=IntValue: 30}
+Program state 
+exeStack=[]
+symTable={v=RefValue ( 1,Ref)}
+out=[IntValue: 20, IntValue: 35]
+fileTable = {}
+heapTable={1=IntValue: 30}

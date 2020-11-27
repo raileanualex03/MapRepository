@@ -3,6 +3,7 @@ package repository;
 import exceptions.MyException;
 import model.ProgramState;
 import model.adt.MyDictionary;
+import model.adt.MyHeap;
 import model.adt.MyList;
 import model.adt.MyStack;
 import model.statement.IStatement;
@@ -18,7 +19,7 @@ public class Repository implements IRepository{
     public Repository(IStatement program, String filepath){
         programs = new ArrayList<>();
         logFilePath = filepath;
-        ProgramState mainProgram = new ProgramState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), new MyDictionary<>(), program);
+        ProgramState mainProgram = new ProgramState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), new MyDictionary<>(), new MyHeap(), program);
         programs.add(mainProgram);
         currentProgram = 0;
     }

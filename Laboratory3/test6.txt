@@ -1,0 +1,348 @@
+Program state 
+exeStack=[Integer v, (v =IntValue: 4,While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =IntValue: 4,While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v)))]
+symTable={v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =IntValue: 4, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[IntValue: 4]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[IntValue: 4]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 0}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 0}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1, IntValue: 0]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[]
+symTable={v=IntValue: 0}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1, IntValue: 0]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[Integer v, (v =IntValue: 4,While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =IntValue: 4,While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v)))]
+symTable={v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =IntValue: 4, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[IntValue: 4]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 4}
+out=[IntValue: 4]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 3}
+out=[IntValue: 4, IntValue: 3, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 2}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(print v,(v =v-IntValue: 1,print v)), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, (v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[(v =v-IntValue: 1,print v), While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[v =v-IntValue: 1, print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 1}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[print v, While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 0}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[While (v>IntValue: 0) do: (print v,(v =v-IntValue: 1,print v))]
+symTable={v=IntValue: 0}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1, IntValue: 0]
+fileTable = {}
+heapTable={}
+Program state 
+exeStack=[]
+symTable={v=IntValue: 0}
+out=[IntValue: 4, IntValue: 3, IntValue: 3, IntValue: 2, IntValue: 2, IntValue: 1, IntValue: 1, IntValue: 0]
+fileTable = {}
+heapTable={}
