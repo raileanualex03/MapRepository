@@ -37,6 +37,7 @@ public class HeapAllocationStatement implements IStatement{
 
         RefType resultType = (RefType)resultVariable.getType();
         Value resultEvaluation = expression.eval(symTable, heapTable);
+
         if(!(resultEvaluation.getType().equals(resultType.getInner())))
             throw new MyException(("Not the same type(" + resultEvaluation.getType().toString()+":"+resultEvaluation.toString()+ "," + resultType.toString()+ ":"+variableName+")") );
 
