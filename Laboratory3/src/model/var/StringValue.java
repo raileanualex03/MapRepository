@@ -21,6 +21,11 @@ public class StringValue implements Value {
         return value.string == this.string;
     }
 
+    @Override
+    public Value deepCopy() {
+        return new StringValue(string);
+    }
+
     public String getValue(){
         return this.string;
     }

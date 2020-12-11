@@ -99,7 +99,7 @@ public class View {
     public static void runSteps(Controller controller){
         System.out.println("---------- INFO------------");
         System.out.println("1.All steps");
-        System.out.println("2.One step");
+        System.out.println("2.All steps as well");
         System.out.println("Enter your choice : ");
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
@@ -108,14 +108,14 @@ public class View {
                 try{
                     controller.allStep();
                     exit(0);
-                } catch (MyException | IOException e) {
+                } catch (InterruptedException | MyException e) {
                     System.out.println(e.toString());
                 }
             case 2:
                 try{
-                    controller.oneStep(controller.getMainProgram());
+                    controller.allStep();;
                 }
-                catch (MyException | IOException e){
+                catch (InterruptedException | MyException e){
                     System.out.println(e.toString());
                 }
         }

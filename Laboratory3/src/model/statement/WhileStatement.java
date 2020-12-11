@@ -31,7 +31,7 @@ public class WhileStatement implements  IStatement{
             exeStack.push(statement);
         }
 
-        return p;
+        return null;
     }
 
     public String toString(){

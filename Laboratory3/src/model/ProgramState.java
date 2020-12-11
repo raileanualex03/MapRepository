@@ -1,13 +1,17 @@
 package model;
 
+import exceptions.MyException;
 import model.adt.*;
 import model.statement.IStatement;
 import model.var.Value;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.util.List;
 
 public class ProgramState {
+    // ToDo: make sure that id will synchronize
+    Integer id;
     MyStack<IStatement> exeStack;
     MyDictionary<String, Value> symTable;
     MyList<Value> out;
@@ -15,9 +19,15 @@ public class ProgramState {
     IStatement originalProgram;
     MyHeap heapTable;
 
+    static Integer currentID = 0;
 
-    public ProgramState(MyStack<IStatement> stack, MyDictionary<String, Value> table
+    public synchronized static int nextID(){
+        return currentID ++ ;
+    }
+
+    public ProgramState( MyStack<IStatement> stack, MyDictionary<String, Value> table
             , MyList<Value> output, MyDictionary<String, BufferedReader> fileTable, MyHeap heap, IStatement op){
+        this.id = nextID();
         exeStack = stack;
         symTable = table;
         out = output;
@@ -67,9 +77,27 @@ public class ProgramState {
         this.symTable = symTable;
     }
 
+
+    public boolean isNotCompleted(){
+        MyStack<IStatement> exeStack = this.getExeStack();
+        return !exeStack.isEmpty();
+
+    }
+
+
+    public ProgramState oneStep() throws MyException, IOException {
+        if (exeStack.isEmpty()) {
+            throw new MyException("Program State : stack is empty");
+        }
+        IStatement statement = exeStack.pop();
+        return statement.execute(this);
+
+    }
+
     @Override
     public String toString(){
-        return "Program state " + '\n' +
+        return "---- Program state ---- " + '\n' +
+                "id=" + id + '\n' +
                 "exeStack=" + exeStack.toString() + '\n' +
                 "symTable=" + symTable.toString() + '\n' +
                 "out=" + out.toString() + '\n' +

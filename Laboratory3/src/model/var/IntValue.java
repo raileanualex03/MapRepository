@@ -21,6 +21,12 @@ public class IntValue implements Value{
         IntValue v = (IntValue) val;
         return v.value == this.value;
     }
+
+    @Override
+    public Value deepCopy() {
+        return new IntValue(value);
+    }
+
     public int getValue(){
         return value;
     }

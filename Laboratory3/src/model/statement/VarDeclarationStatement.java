@@ -30,7 +30,7 @@ public class VarDeclarationStatement implements IStatement{
         value = type.defaultValue();
 
         table.add(name, value);
-        return p;
+        return null;
 
     }
 

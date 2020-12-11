@@ -23,7 +23,7 @@ public class PrintStatement implements IStatement{
         } catch (MyException e) {
             e.printStackTrace();
         }
-        return p;
+        return null;
     }
 
     public String toString(){

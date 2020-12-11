@@ -44,7 +44,7 @@ public class HeapAllocationStatement implements IStatement{
         int address = heapTable.add(resultEvaluation);
         symTable.update(variableName.getValue(), new RefValue(address, resultEvaluation.getType()));
 
-        return p;
+        return null;
     }
 
     public String toString(){

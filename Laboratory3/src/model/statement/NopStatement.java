@@ -7,7 +7,7 @@ public class NopStatement implements IStatement{
 
     @Override
     public ProgramState execute(ProgramState ps) throws MyException {
-        return ps;
+        return null;
     }
 
     public String toString(){

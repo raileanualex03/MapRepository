@@ -42,7 +42,7 @@ public class ReadFileStatement implements IStatement{
         Value val = new IntValue(value);
         symTable.update(var_name, val);
 
-        return p;
+        return null;
     }
 
     @Override

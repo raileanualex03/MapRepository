@@ -43,3 +43,276 @@ exeStack=[]
 symTable={a=IntValue: 17, b=IntValue: 18}
 out=[IntValue: 18]
 fileTable = {}
+---- Program state ---- 
+id=1
+exeStack=[(Integer a,(Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer a, (Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer a, (Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer a, (Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer a, (Integer b,(a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[Integer b, (a =IntValue: 2+IntValue: 3*IntValue: 5,(b =a+IntValue: 1,print b))]
+symTable={a=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[b =a+IntValue: 1, print b]
+symTable={a=IntValue: 17, b=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=1
+exeStack=[]
+symTable={a=IntValue: 17, b=IntValue: 18}
+out=[IntValue: 0]
+fileTable = {}
+heapTable={}

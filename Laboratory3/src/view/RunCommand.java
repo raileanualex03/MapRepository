@@ -4,6 +4,7 @@ import controller.Controller;
 import exceptions.MyException;
 
 import java.io.IOException;
+import java.util.concurrent.ExecutionException;
 
 public class RunCommand extends Command{
     Controller controller;
@@ -18,7 +19,7 @@ public class RunCommand extends Command{
     public void execute() {
         try{
             controller.allStep();
-        } catch (IOException | MyException e) {
+        } catch (InterruptedException | MyException e) {
             e.printStackTrace();
         }
     }

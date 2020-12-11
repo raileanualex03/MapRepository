@@ -43,4 +43,9 @@ public class MyDictionary<T1, T2> implements IDictionary<T1,T2>{
     public Collection<T2> getContent() {
         return dictionary.values();
     }
+
+    public Collection<T1> getKeys(){
+        return dictionary.keySet();
+    }
+
 }

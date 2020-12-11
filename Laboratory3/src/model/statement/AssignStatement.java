@@ -36,7 +36,7 @@ public class AssignStatement implements IStatement {
                 table.update(id, value);
         } else
             throw new MyException("This variable wasn't declared previously");
-        return ps;
+        return null;
     }
 
     public String toString(){

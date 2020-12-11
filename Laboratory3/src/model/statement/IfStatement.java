@@ -41,7 +41,7 @@ public class IfStatement implements IStatement {
         } else
             throw new MyException("Error: Expression not boolean");
 
-        return ps;
+        return null;
     }
 
     public String toString(){

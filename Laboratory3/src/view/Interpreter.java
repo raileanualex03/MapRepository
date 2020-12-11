@@ -66,6 +66,14 @@ public class Interpreter {
         IStatement st9 = example9();
         Repository repo9 = new Repository(st9, "test9.txt");
         Controller ctrl9 = new Controller(repo9);
+
+        IStatement st10 = example10();
+        Repository repo10 = new Repository(st10, "test10.txt");
+        Controller ctrl10 = new Controller(repo10);
+
+        IStatement st11 = example11();
+        Repository repo11 = new Repository(st11, "test11.txt");
+        Controller ctrl11 = new Controller(repo11);
         
         TextMenu menu = new TextMenu();
         menu.addCommand(new ExitCommand("0","exit"));
@@ -78,6 +86,8 @@ public class Interpreter {
         menu.addCommand(new RunCommand("7", st7.toString(), ctrl7));
         menu.addCommand(new RunCommand("8", st8.toString(), ctrl8));
         menu.addCommand(new RunCommand("9", st9.toString(), ctrl9));
+        menu.addCommand(new RunCommand("10", st10.toString(), ctrl10));
+        menu.addCommand(new RunCommand("11", st11.toString(), ctrl11));
         menu.show();
     }
 
@@ -252,6 +262,38 @@ public class Interpreter {
                 )
         );
     }
+    static IStatement example11(){
+        return new CompStatement(
+                new VarDeclarationStatement("v", new IntType()),
+                new CompStatement(
+                        new VarDeclarationStatement("a", new RefType(new IntType())),
+                        new CompStatement(
+                                new AssignStatement("v", new ValueExpression(new IntValue(10))),
+                                new CompStatement(
+                                        new HeapAllocationStatement(new StringValue("a"), new ValueExpression(new IntValue(22))),
+                                        new CompStatement(
+                                                new ForkStatement(new CompStatement(
+                                                                new HeapWritingStatement(new StringValue("a"), new ValueExpression(new IntValue(30))),
+                                                                new CompStatement(
+                                                                        new AssignStatement("v", new ValueExpression(new IntValue(32))),
+                                                                        new CompStatement(
+                                                                                new PrintStatement(new VarExpression("v")),
+                                                                                new PrintStatement(new HeapReadingExpression(new VarExpression("a")))
+                                                                            )
+                                                                        )
+                                                                    )
+                                                ),
+                                                new CompStatement(
+                                                        new PrintStatement(new VarExpression("v")),
+                                                        new PrintStatement(new HeapReadingExpression(new VarExpression("a")))
+                                                )
+                                        )
+                                )
+                        )
+                )
+        );
+    }
+
     public static void test() throws IOException, MyException {
         MyStack<IStatement> exeStack = new MyStack<>();
         MyDictionary<String, Value> symbolTable = new MyDictionary<>();

@@ -44,7 +44,7 @@ public class OpenRFileStatement implements IStatement {
         else
             throw new MyException("Wrong type");
 
-        return ps;
+        return null;
     }
 
     @Override

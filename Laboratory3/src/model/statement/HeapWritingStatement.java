@@ -46,10 +46,10 @@ public class HeapWritingStatement implements IStatement{
 
         heapTable.update(refResult.getAddress(), expressionResult);
 
-        return p;
+        return null;
     }
 
     public String toString(){
-        return "heapWriting(" + this.expression.toString() + ")";
+        return "heapWriting(" + this.var_name + ',' + this.expression.toString() + ")";
     }
 }

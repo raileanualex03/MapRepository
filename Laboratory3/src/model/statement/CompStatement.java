@@ -19,7 +19,7 @@ public class CompStatement implements IStatement{
         IStack<IStatement> stack = state.getExeStack();
         stack.push(second);
         stack.push(first);
-        return state;
+        return null;
     }
 
     @Override

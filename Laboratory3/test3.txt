@@ -58,3 +58,283 @@ symTable={a=BoolValue: true, v=IntValue: 2}
 out=[IntValue: 2]
 fileTable = {}
 heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[(Boolean a,(Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Boolean a, (Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Boolean a, (Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Boolean a, (Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Boolean a, (Integer v,(a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v)))]
+symTable={}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[Integer v, (a =BoolValue: true,(if a then v =IntValue: 2 else v =IntValue: 3,print v))]
+symTable={a=BoolValue: false}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[if a then v =IntValue: 2 else v =IntValue: 3, print v]
+symTable={a=BoolValue: true, v=IntValue: 0}
+out=[]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}
+---- Program state ---- 
+id=2
+exeStack=[]
+symTable={a=BoolValue: true, v=IntValue: 2}
+out=[IntValue: 2]
+fileTable = {}
+heapTable={}

@@ -29,7 +29,7 @@ public class CloseRFileStatement implements IStatement{
         BufferedReader reader = fileTable.lookup(((StringValue)value).getValue());
         reader.close();
         fileTable.remove(val.getValue());
-        return p;
+        return null;
     }
 
     public String toString(){
